@@ -53,7 +53,6 @@ contract HeroToken {
         tokenAttack=tokensArr[tokenId].attack;
         tokenProtection=tokensArr[tokenId].protection;
         tokenPracticality=tokensArr[tokenId].practicality;
-
     }
 
     function changeOwner(uint tokenId,uint pubKeyOfNewOwner) checkOwner(tokenId) public{
